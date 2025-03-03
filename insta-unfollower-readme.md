@@ -58,4 +58,3 @@ streamlit run instagram_unfollowers.py
 ## 🏗 Future Enhancements  
 ✅ Add session-based login to prevent frequent logins  
 ✅ Improve UI design with better visualization  
-✅ Include additional insights (e.g., inactive followers)  
