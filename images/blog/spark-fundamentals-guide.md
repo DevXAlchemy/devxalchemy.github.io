@@ -38,7 +38,7 @@ Apache Spark has revolutionized big data processing with its distributed computi
 
 ## 1. Spark Application Architecture
 
-![Spark Application Architecture](../../../public/images/blog/spark/Spark-Application-Job-Stage-Task.jpg)
+![Spark Application Architecture](../../../images/blog/spark/Spark-Application-Job-Stage-Task.jpg)
 
 ### Understanding Spark's Execution Model
 
@@ -56,7 +56,7 @@ Spark applications follow a hierarchical structure that enables distributed proc
 
 ## 2. Spark Cluster Architecture
 
-![Spark Cluster Architecture](../../../public/images/blog/spark/Spark-Architecture.jpg)
+![Spark Cluster Architecture](../../../images/blog/spark/Spark-Architecture.jpg)
 
 ### Master-Worker Architecture
 
@@ -74,7 +74,7 @@ Spark's distributed architecture consists of:
 
 ## 3. SparkContext vs SparkSession
 
-![SparkContext vs SparkSession](../../../public/images/blog/spark/Spark-Context-Session.jpg)
+![SparkContext vs SparkSession](../../../images/blog/spark/Spark-Context-Session.jpg)
 
 ### Evolution of Spark Entry Points
 
@@ -92,7 +92,7 @@ Spark's distributed architecture consists of:
 
 ## 4. RDD vs DataFrame vs Dataset
 
-![RDD vs DataFrame vs Dataset](../../../public/images/blog/spark/Spark-Difference.jpg)
+![RDD vs DataFrame vs Dataset](../../../images/blog/spark/Spark-Difference.jpg)
 
 ### Choosing the Right Abstraction
 
@@ -118,7 +118,7 @@ Spark's distributed architecture consists of:
 
 ## 5. Spark SQL Engine & Catalyst Optimizer
 
-![Spark SQL Engine](../../../public/images/blog/spark/Spark-Spark-SQL-Engine.jpg)
+![Spark SQL Engine](../../../images/blog/spark/Spark-Spark-SQL-Engine.jpg)
 
 ### Four Phases of Query Optimization
 
@@ -137,7 +137,7 @@ The Catalyst optimizer transforms your queries through four phases:
 
 ## 6. RDD Fundamentals
 
-![RDD Fundamentals](../../../public/images/blog/spark/Spark-RDD.jpg)
+![RDD Fundamentals](../../../images/blog/spark/Spark-RDD.jpg)
 
 ### Immutable Distributed Collections
 
@@ -160,7 +160,7 @@ RDDs form the foundation of Spark's fault-tolerant processing:
 
 ## 7. Transformations vs Actions
 
-![Transformations vs Actions](../../../public/images/blog/spark/Spark-Transformation-Action-Types.jpg)
+![Transformations vs Actions](../../../images/blog/spark/Spark-Transformation-Action-Types.jpg)
 
 ### Lazy Evaluation in Practice
 
@@ -182,7 +182,7 @@ RDDs form the foundation of Spark's fault-tolerant processing:
 
 ## 8. Partitioning Strategies
 
-![Repartition vs Coalesce](../../../public/images/blog/spark/Spark-Repartition-vs-Coalesce.jpg)
+![Repartition vs Coalesce](../../../images/blog/spark/Spark-Repartition-vs-Coalesce.jpg)
 
 ### Optimizing Data Distribution
 
@@ -203,7 +203,7 @@ RDDs form the foundation of Spark's fault-tolerant processing:
 
 ## 9. Join Strategies in Spark
 
-![Spark Join Strategies](../../../public/images/blog/spark/Spark-Spark-Join.jpg)
+![Spark Join Strategies](../../../images/blog/spark/Spark-Spark-Join.jpg)
 
 ### Optimizing Join Performance
 
@@ -223,7 +223,7 @@ Spark implements five join strategies:
 
 ## 10. Schema Management & Data Quality
 
-![Schema and Bad Records](../../../public/images/blog/spark/Spark-Schema-BadRecords.jpg)
+![Schema and Bad Records](../../../images/blog/spark/Spark-Schema-BadRecords.jpg)
 
 ### Handling Schema Evolution
 
@@ -247,7 +247,7 @@ Use `.option("badRecordsPath", "path/to/store/file")` to save corrupted records 
 
 ## 11. JSON Processing Strategies
 
-![JSON Processing](../../../public/images/blog/spark/Spark-Json.jpg)
+![JSON Processing](../../../images/blog/spark/Spark-Json.jpg)
 
 ### Handling Complex JSON Data
 
@@ -263,7 +263,7 @@ Spark provides flexible JSON processing options:
 
 ## 12. Parquet File Format Deep Dive
 
-![Parquet Format](../../../public/images/blog/spark/Parquet.jpg)
+![Parquet Format](../../../images/blog/spark/Parquet.jpg)
 
 ### Columnar Storage Optimization
 
